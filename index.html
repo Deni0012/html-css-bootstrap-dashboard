@@ -24,6 +24,8 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
+
+            <!-- Menù -->
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav text-left">
                     <li class="nav-item"><a class="nav-link" href="#">Catalogo Libri</a></li>
@@ -32,6 +34,8 @@
                     <li class="nav-item"><a class="nav-link" href="#">Help</a></li>
                 </ul>
             </div>
+
+            <!-- Barra cerca -->
             <form class="d-none d-lg-flex" role="search">
                 <input class="form-control me-2" type="search" placeholder="Cerca..." aria-label="Search">
                 <button class="btn btn-outline-light" type="submit">Cerca</button>
@@ -61,7 +65,34 @@
                     <tbody>
                         <tr>
                             <td>I pilastri della terra</td>
-                            <td class="d-none d-md-table-cell">10/02/2024</td> <!-- Data prestito -->
+                            <td class="d-none d-md-table-cell">-</td> <!-- Data prestito -->
+                            <td><span class="status-disponibile">Disponibile</span></td>
+                            <td>
+                                <button class="btn btn-sm btn-light"><i class="fas fa-edit"></i></button>
+                                <button class="btn btn-sm btn-light"><i class="fas fa-trash"></i></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>I promessi sposi</td>
+                            <td class="d-none d-md-table-cell">-</td> <!-- Data prestito -->
+                            <td><span class="status-disponibile">Disponibile</span></td>
+                            <td>
+                                <button class="btn btn-sm btn-light"><i class="fas fa-edit"></i></button>
+                                <button class="btn btn-sm btn-light"><i class="fas fa-trash"></i></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Il signore degli anelli</td>
+                            <td class="d-none d-md-table-cell">18/10/2023</td> <!-- Data prestito -->
+                            <td><span class="status-in-prestito">In prestito</span></td>
+                            <td>
+                                <button class="btn btn-sm btn-light"><i class="fas fa-edit"></i></button>
+                                <button class="btn btn-sm btn-light"><i class="fas fa-trash"></i></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Harry Potter e la pietra filosofale</td>
+                            <td class="d-none d-md-table-cell">-</td> <!-- Data prestito -->
                             <td><span class="status-disponibile">Disponibile</span></td>
                             <td>
                                 <button class="btn btn-sm btn-light"><i class="fas fa-edit"></i></button>
@@ -70,7 +101,7 @@
                         </tr>
                         <tr>
                             <td>Il codice Da Vinci</td>
-                            <td class="d-none d-md-table-cell">05/01/2024</td> <!-- Data prestito -->
+                            <td class="d-none d-md-table-cell">-</td> <!-- Data prestito -->
                             <td><span class="status-non-disponibile">Non disponibile</span></td>
                             <td>
                                 <button class="btn btn-sm btn-light"><i class="fas fa-edit"></i></button>
@@ -78,8 +109,17 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>Le cronache di Narnia</td>
-                            <td class="d-none d-md-table-cell">15/12/2023</td> <!-- Data prestito -->
+                            <td>Shining</td>
+                            <td class="d-none d-md-table-cell">-</td> <!-- Data prestito -->
+                            <td><span class="status-disponibile">Disponibile</span></td>
+                            <td>
+                                <button class="btn btn-sm btn-light"><i class="fas fa-edit"></i></button>
+                                <button class="btn btn-sm btn-light"><i class="fas fa-trash"></i></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>La divina commedia</td>
+                            <td class="d-none d-md-table-cell">21/09/2023</td> <!-- Data prestito -->
                             <td><span class="status-in-prestito">In prestito</span></td>
                             <td>
                                 <button class="btn btn-sm btn-light"><i class="fas fa-edit"></i></button>
@@ -87,8 +127,26 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>Le cronache di Narnia</td>
-                            <td class="d-none d-md-table-cell">15/12/2023</td> <!-- Data prestito -->
+                            <td>Il trono di spade</td>
+                            <td class="d-none d-md-table-cell">-</td> <!-- Data prestito -->
+                            <td><span class="status-disponibile">Disponibile</span></td>
+                            <td>
+                                <button class="btn btn-sm btn-light"><i class="fas fa-edit"></i></button>
+                                <button class="btn btn-sm btn-light"><i class="fas fa-trash"></i></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Il mondo di Sofia</td>
+                            <td class="d-none d-md-table-cell">-</td> <!-- Data prestito -->
+                            <td><span class="status-non-disponibile">Non disponibile</span></td>
+                            <td>
+                                <button class="btn btn-sm btn-light"><i class="fas fa-edit"></i></button>
+                                <button class="btn btn-sm btn-light"><i class="fas fa-trash"></i></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Le cronache di Narnia: il leone, la strega e l'armadio</td>
+                            <td class="d-none d-md-table-cell">27/07/2023</td> <!-- Data prestito -->
                             <td><span class="status-in-prestito">In prestito</span></td>
                             <td>
                                 <button class="btn btn-sm btn-light"><i class="fas fa-edit"></i></button>
@@ -96,72 +154,18 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>Le cronache di Narnia</td>
-                            <td class="d-none d-md-table-cell">15/12/2023</td> <!-- Data prestito -->
-                            <td><span class="status-in-prestito">In prestito</span></td>
+                            <td>Il piccolo principe</td>
+                            <td class="d-none d-md-table-cell">-</td> <!-- Data prestito -->
+                            <td><span class="status-disponibile">Disponibile</span></td>
                             <td>
                                 <button class="btn btn-sm btn-light"><i class="fas fa-edit"></i></button>
                                 <button class="btn btn-sm btn-light"><i class="fas fa-trash"></i></button>
                             </td>
                         </tr>
                         <tr>
-                            <td>Le cronache di Narnia</td>
-                            <td class="d-none d-md-table-cell">15/12/2023</td> <!-- Data prestito -->
-                            <td><span class="status-in-prestito">In prestito</span></td>
-                            <td>
-                                <button class="btn btn-sm btn-light"><i class="fas fa-edit"></i></button>
-                                <button class="btn btn-sm btn-light"><i class="fas fa-trash"></i></button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Le cronache di Narnia</td>
-                            <td class="d-none d-md-table-cell">15/12/2023</td> <!-- Data prestito -->
-                            <td><span class="status-in-prestito">In prestito</span></td>
-                            <td>
-                                <button class="btn btn-sm btn-light"><i class="fas fa-edit"></i></button>
-                                <button class="btn btn-sm btn-light"><i class="fas fa-trash"></i></button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Le cronache di Narnia</td>
-                            <td class="d-none d-md-table-cell">15/12/2023</td> <!-- Data prestito -->
-                            <td><span class="status-in-prestito">In prestito</span></td>
-                            <td>
-                                <button class="btn btn-sm btn-light"><i class="fas fa-edit"></i></button>
-                                <button class="btn btn-sm btn-light"><i class="fas fa-trash"></i></button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Le cronache di Narnia</td>
-                            <td class="d-none d-md-table-cell">15/12/2023</td> <!-- Data prestito -->
-                            <td><span class="status-in-prestito">In prestito</span></td>
-                            <td>
-                                <button class="btn btn-sm btn-light"><i class="fas fa-edit"></i></button>
-                                <button class="btn btn-sm btn-light"><i class="fas fa-trash"></i></button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Le cronache di Narnia</td>
-                            <td class="d-none d-md-table-cell">15/12/2023</td> <!-- Data prestito -->
-                            <td><span class="status-in-prestito">In prestito</span></td>
-                            <td>
-                                <button class="btn btn-sm btn-light"><i class="fas fa-edit"></i></button>
-                                <button class="btn btn-sm btn-light"><i class="fas fa-trash"></i></button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Le cronache di Narnia</td>
-                            <td class="d-none d-md-table-cell">15/12/2023</td> <!-- Data prestito -->
-                            <td><span class="status-in-prestito">In prestito</span></td>
-                            <td>
-                                <button class="btn btn-sm btn-light"><i class="fas fa-edit"></i></button>
-                                <button class="btn btn-sm btn-light"><i class="fas fa-trash"></i></button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Le cronache di Narnia</td>
-                            <td class="d-none d-md-table-cell">15/12/2023</td> <!-- Data prestito -->
-                            <td><span class="status-in-prestito">In prestito</span></td>
+                            <td>La storia infinita</td>
+                            <td class="d-none d-md-table-cell">-</td> <!-- Data prestito -->
+                            <td><span class="status-disponibile">Disponibile</span></td>
                             <td>
                                 <button class="btn btn-sm btn-light"><i class="fas fa-edit"></i></button>
                                 <button class="btn btn-sm btn-light"><i class="fas fa-trash"></i></button>
@@ -170,53 +174,57 @@
                     </tbody>
                 </table>
             </div>
-            <!-- Sezione Todo & FAQ -->
+            <!-- Sezione Todo -->
             <div class="col-lg-4">
                 <div class="card mb-3">
                     <h3 class="card-header">Todo</h3>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item"><input type="checkbox"> Chiamare segreteria</li>
-                        <li class="list-group-item"><input type="checkbox"> Mandare avvisi prestiti scaduti</li>
-                        <li class="list-group-item"><input type="checkbox"> Ordinare nuovi libri</li>
-                    </ul>
+                    <div class="border p-3 accordion">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item"><input type="checkbox"> Chiamare segreteria</li>
+                            <li class="list-group-item"><input type="checkbox"> Mandare avvisi prestiti scaduti</li>
+                            <li class="list-group-item"><input type="checkbox"> Ordinare nuovi libri</li>
+                        </ul>
+                    </div>
+                   
                 </div>
 
-                
-                <h3>F.A.Q.</h3>
-                <div class="accordion" id="faqAccordion">
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
-                                Come aggiungere un nuovo libro?
-                            </button>
-                        </h2>
-                        <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                            <div class="accordion-body">Clicca su "Aggiungi Libro" e compila il modulo.</div>
+                <!-- FAQ -->
+                <div class="card mb-3">
+                    <h3 class="card-header">F.A.Q.</h3>
+                    <div class="p-4 accordion" id="faqAccordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                                    Come aggiungere un nuovo libro?
+                                </button>
+                            </h2>
+                            <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">Clicca su "Aggiungi Libro" e compila il modulo.</div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#faq2">
-                                Come posso accedere all'anagrafica utenti?
-                            </button>
-                        </h2>
-                        <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                            <div class="accordion-body">Trovi il link nella barra di navigazione.</div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                                    Come posso accedere all'anagrafica utenti?
+                                </button>
+                            </h2>
+                            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">Trovi il link nella barra di navigazione.</div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#faq3">
-                                Posso usare questa dashboard da mobile?
-                            </button>
-                        </h2>
-                        <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                            <div class="accordion-body">Sì, la dashboard è responsive.</div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                                    Posso usare questa dashboard da mobile?
+                                </button>
+                            </h2>
+                            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">Sì, la dashboard è responsive.</div>
+                            </div>
                         </div>
                     </div>
                 </div>
+                
             </div>
         </div>
     </div>
