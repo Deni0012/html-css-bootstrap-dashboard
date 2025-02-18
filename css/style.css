@@ -1,0 +1,20 @@
+ .status-disponibile {
+     background-color: #28a745;
+     color: white;
+     padding: 5px 10px;
+     border-radius: 5px;
+ }
+
+ .status-non-disponibile {
+     background-color: #dc3545;
+     color: white;
+     padding: 5px 10px;
+     border-radius: 5px;
+ }
+
+ .status-in-prestito {
+     background-color: #ffc107;
+     color: black;
+     padding: 5px 10px;
+     border-radius: 5px;
+ }
